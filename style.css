@@ -195,6 +195,16 @@ body {
     margin-right: 10px;
 }
 
+.tablet {
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 1em 1.5em;
+    color: white;
+    margin: 2% 40%;
+    display: inline-block;
+    display: none;
+}
+
 /*---------------------- 
 Footer section style 
 ------------------------*/
@@ -370,7 +380,7 @@ footer hr {
     }
 
     .header_img img {
-        margin-top: 5em;
+        margin-top: 10em;
         margin-bottom: 1em;
         width: 90%;
     }
@@ -405,4 +415,8 @@ footer hr {
     }
 
 
+    .tablet {
+        display: block;
+        text-align: center;
+    }
 }

@@ -80,17 +80,38 @@ body {
 .header_img img {
     margin-top: 1em;
     margin-bottom: 1em;
-    width: 90%;
+    width: 80%;
 }
 
-.btn {
+.header_text .btn {
     background: #DD0000;
     border-radius: 5px;
     padding: 1em 1.5em;
     color: white;
-    margin: 0 auto;
+    margin: 2em 0;
+    box-shadow: inset 0 0 0 0 yellow;
+    transition: ease-out 0.5s;
+    outline: none;
+    margin-left: ;
 }
 
+.header_text .btn:hover {
+    box-shadow: inset 300px 0 0 0 yellow;
+    cursor: pointer;
+    color: black;
+}
+
+.header_text .btn:hover i {
+    transform: rotate(90deg);
+    color: black;
+
+}
+
+.header_text .btn i {
+    margin-left: 0.7em;
+    transition: ease-in 0.5s;
+
+}
 
 
 /*---------------------
@@ -116,9 +137,7 @@ body {
 
     margin: 20px 10px;
     background-color: #161616;
-    /* margin: 20px;
-    padding: 20px 10px;
-    border-radius: 10px; */
+
 }
 
 .side_nav a {
@@ -133,6 +152,7 @@ body {
     border-radius: 10px;
     width: 100%;
     margin-top: 10px;
+    transition: 0.5s all ease;
 }
 
 .side_nav .btn {
@@ -141,6 +161,15 @@ body {
     border-radius: 10px;
     padding: 15px 0px;
     color: white;
+}
+
+.side_item:hover a {
+    text-align: center;
+    background: #DD0000;
+    border-radius: 10px;
+    padding: 15px 0px;
+    color: black;
+
 }
 
 .blogs {
@@ -162,6 +191,8 @@ body {
     width: 100%;
 }
 
+.blog img:hover {}
+
 .details {
     margin-left: 10px;
     padding-bottom: 15px;
@@ -177,6 +208,14 @@ body {
     text-decoration: none;
     margin: 10px 0px;
     display: inline-block;
+    transition: 0.5s all ease;
+}
+
+.details>a:hover {
+    background-color: #161616;
+    color: white;
+    border: 1px solid white;
+
 }
 
 .blog h4 {
@@ -295,6 +334,13 @@ footer hr {
         display: block;
     }
 
+    .container {
+        width: 100%;
+    }
+
+    .header_text .btn {
+        margin-left: -6em;
+    }
 
     .header_text {
         width: 100%;
@@ -334,6 +380,13 @@ footer hr {
     }
 
     .side_item {
+        background-color: white;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+
+    }
+
+    .side_item:hover {
         background-color: white;
         border: 1px solid lightgray;
         border-radius: 10px;

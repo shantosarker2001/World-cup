@@ -26,7 +26,7 @@ body {
 }
 
 .hidden {
-    display: none;
+    display: block;
 }
 
 /* ----------------------
@@ -151,11 +151,13 @@ body {
     background-color: white;
     border-radius: 10px;
     width: 100%;
-    margin-top: 10px;
+    margin-top: ;
     transition: 0.5s all ease;
 }
 
 .side_nav .btn {
+    font-size: 18px;
+    font-weight: 500;
     text-align: center;
     background: #DD0000;
     border-radius: 10px;
@@ -242,6 +244,14 @@ body {
     margin: 2% 40%;
     display: inline-block;
     display: none;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+
+.tablet:hover {
+    background-color: aliceblue;
+    border: 1px solid #161616;
+    color: #161616;
 }
 
 /*---------------------- 
@@ -396,7 +406,7 @@ footer hr {
     .side_nav a {
         display: block;
         width: 100%;
-        margin: ;
+        margin:
     }
 
     .blogs {
@@ -425,7 +435,7 @@ footer hr {
 @media only screen and (min-width:689px) and (max-width:992px) {
 
     .hidden {
-        display: block;
+        display: none;
     }
 
     .banner {

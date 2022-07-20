@@ -74,7 +74,7 @@ body {
 .header_img {
     text-align: center;
     width: 50%;
-    margin-top: 2em;
+
 }
 
 .header_img img {
@@ -132,6 +132,7 @@ body {
     background-color: white;
     border-radius: 10px;
     width: 100%;
+    margin-top: 10px;
 }
 
 .side_nav .btn {

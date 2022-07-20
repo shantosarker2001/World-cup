@@ -1,0 +1,32 @@
+.country {
+    display: flex;
+    padding: 2em;
+}
+
+.country img {
+    display: inline-block;
+    width: 40%;
+}
+
+.details {
+    text-align: center;
+    margin-left: 20px;
+    margin: 0% 10%;
+}
+
+.details h4 {
+    font-size: 16px;
+
+}
+
+.details h5 {
+    font-weight: 400;
+    font-size: 15px;
+    color: gray;
+}
+
+.country span {
+    width: 20%;
+    text-align: center;
+    margin: 1em;
+}

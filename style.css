@@ -259,6 +259,30 @@ footer hr {
 
 .footer_menu {}
 
+.social_icon {
+    margin-top: 1em;
+}
+
+.social_icon a {
+    border: 1px solid lightgray;
+    color: lightgray;
+    border-radius: 5em;
+    padding: 1em;
+    margin-right: 1em;
+    display: inline-block;
+    transition: 0.5s all ease;
+}
+
+.social_icon a:hover {
+    color: #161616;
+    background-color: white;
+
+}
+
+.social_icon i:last-child {
+    margin-right: 0;
+}
+
 /*---------------------
  Responsive Layout 
  ----------------------*/
